@@ -1,0 +1,51 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  background-color: yellow;
+  box-shadow: 10px 10px 10px chartreuse;
+  border-radius: 10px;
+}
+
+.App {
+  text-align: center;
+  padding: 20px;
+}
+
+input {
+  padding: 10px;
+  width: 300px;
+  margin-bottom: 20px;
+}
+
+.dropdown {
+  list-style: none;
+  padding: 0;
+  margin: 0 auto;
+  width: 300px;
+  border: 1px solid #ccc;
+  max-height: 150px;
+  overflow-y: auto;
+}
+
+.dropdown li {
+  padding: 10px;
+  cursor: pointer;
+  border-bottom: 1px solid #eee;
+}
+
+.dropdown li:hover {
+  background-color: #f0f0f0;
+}
+
+.student-details {
+  margin-top: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  width: 300px;
+  margin: 0 auto;
+  background-color: aqua;
+  box-shadow: 10px 10px 10px red;
+  border-radius: 10px;
+}
